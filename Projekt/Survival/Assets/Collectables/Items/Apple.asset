@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9093c775a4dd864da4ad390f98d5e88, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  Usable: 1
+  stats: {fileID: 11400000, guid: 5d36b9bef3f1e744e8e362ebc5a637da, type: 2}
+  type: Apple
+  amount: 1
+  icon: {fileID: 21300000, guid: 333887744724c694ea85bcd47d7d86f1, type: 3}
+  hungerRestore: 50
+  statsChange: {fileID: 11400000, guid: 65005cb450b46c1459b0e1c0e6e02440, type: 2}
+  eqChange: {fileID: 11400000, guid: 6c39b2699dd822d4b9064cd61cc30c20, type: 2}

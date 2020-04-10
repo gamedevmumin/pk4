@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2721277070461634951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2721277070461634949}
+  - component: {fileID: 2721277070461634950}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2721277070461634949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721277070461634951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3334133, y: -2.6729565, z: -14.969727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2721277070461634950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2721277070461634951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291290d536c8c0445a79629cedfccb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Collection
+    clip: {fileID: 8300000, guid: cec6b11e79cb1ae4ca2583cba4bcc826, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: StoneDestruction
+    clip: {fileID: 8300000, guid: aa3243cb858653f41b32579b26ac0cf4, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: StoneHit
+    clip: {fileID: 8300000, guid: e3ae56d94dd3e904185c94c1178fb8cf, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Swoosh
+    clip: {fileID: 8300000, guid: ec321212322713547b34b32c12e2d603, type: 3}
+    volume: 1.2
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 5465f2a7f2b4c7c42959487d0c50b22f, type: 3}
+    volume: 2
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: StoneHit2
+    clip: {fileID: 8300000, guid: aa6d7a5e47ac5e141a9f25a7fd7923de, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Hammer2
+    clip: {fileID: 8300000, guid: 41b2d660958a54f4c97b1838346ddff4, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Hurt2
+    clip: {fileID: 8300000, guid: 8ed00566939e50440b4c48e3580ddb67, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Eating
+    clip: {fileID: 8300000, guid: 8780645e2397d914b8c0c0baf742caa7, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Plant
+    clip: {fileID: 8300000, guid: 62db6c51132804444af7feb9c3211021, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Music
+    clip: {fileID: 8300000, guid: 1813b782e4afc194db538d7490da15a2, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 1
+  - name: Error
+    clip: {fileID: 8300000, guid: e102d83fd94dff54ea991f040aa42822, type: 3}
+    volume: 1.5
+    pitch: 1
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: 5465f2a7f2b4c7c42959487d0c50b22f, type: 3}
+    volume: 1.172
+    pitch: 1.218
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Win
+    clip: {fileID: 8300000, guid: e15b39ebb7f2f5243b25034afe36f985, type: 3}
+    volume: 1.5
+    pitch: 1.218
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
+  - name: Lose
+    clip: {fileID: 8300000, guid: 1c2cfd7dbde5ca8468e3f89fb0e6056f, type: 3}
+    volume: 1.5
+    pitch: 1.218
+    randomVolume: 0.2
+    randomPitch: 0.2
+    loop: 0
