@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Mumin\Desktop\AllThatStuff\Studia\PK4\Regex\Regex\Regex\main.cpp(32,21): warning C4101: "regex": lokalna zmienna, do której nie istnieje odwołanie
+  Regex.vcxproj -> C:\Users\Mumin\Desktop\AllThatStuff\Studia\PK4\Regex\Regex\Debug\Regex.exe
